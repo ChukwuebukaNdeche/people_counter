@@ -1,0 +1,78 @@
+body{
+    background: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-image: url("./Image/subway_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+#countel{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+#increment-btn{
+    background: rgb(110, 7, 7);
+    width: 50%;
+    margin-bottom: 6px;
+    padding: 10px 50px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#savebtn{
+    background: green;
+    width: 50%;
+    padding:10px 72px ;
+    color: beige;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#saveel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#increment-btn:hover{
+    background: rgb(167, 61, 61);
+    color: rgb(12, 8, 8);
+    transform: scale(1.02);
+}
+#savebtn:hover{
+    background: rgb(129, 207, 129);
+    color: rgb(12, 8, 8);
+    transform: scale(1.02);
+}
+#increment-btn:active {
+    background: rgb(110, 7, 7);  
+}
+#savebtn:active {
+    background: green;  
+}
+
+@media (max-width: 767px) {
+    #increment-btn:hover{
+        background: rgb(110, 7, 7);
+        transform: scale(1);
+        color: white;
+    }
+    #savebtn:hover{
+        background: green;
+        transform: scale(1);
+        color: white;
+    }
+}
